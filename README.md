@@ -8,7 +8,7 @@ You have two options for using SPStats:
   - Running it as the root folder
   - Running it within your existing server
  
- Either works, but scalability will likely be better if you decide to house SPStats within a director in the root web server directory. The process of using SPStats is nearly identical, but setting up the web server itself will be slightly different.
+ Either works, but scalability will likely be better if you decide to house SPStats within a directory in the root web server directory. The process of using SPStats is nearly identical, but setting up the web server itself will be slightly different.
  
  Once you have PHP working on your web server, make a copy of "config-example.php" and rename it as "config.php". The server will not function until you do this and will attempt to assign undefined variables when used. In production, never use the default password in the config file as the default password is publicly available.
  
@@ -28,3 +28,9 @@ You have two options for using SPStats:
   You can easily format your inputs in the Archive Utility using HTML. To prevent any odd formatting, refrain from using it on anything but the description as this area is pretty clear of formatting.
   
   Contribute to the project! Even just a small bug fix is greatly appreciated and we're always happy to get feedback about our code! On top of that, you can add features that we might not even think of, which is a huge plus for users and yourself.
+  
+## Roadmap
+  - Built-in board image retrieval
+  - Pxls-based authentication
+  - Archive editing
+  - Mobile optimization
