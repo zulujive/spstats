@@ -1,4 +1,6 @@
 <?php
+	// Make a copy of this file and rename it to "config.php"
+
 	// Name of your site:
 	$site_name = 'STEMPlace';
 	// Set the Password for the Archive Utility:
