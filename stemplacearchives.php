@@ -3,7 +3,7 @@
 <head>
   	<?php
   		include(dirname(__FILE__).'/config.php');
-		$filename = "canvas-".$canvas_num".png";
+		$filename = "canvas-".$canvas_num.".png";
 		$filemtime = filemtime($filename);
 		$last_updated = date("g:i A", $filemtime);
 	?>
