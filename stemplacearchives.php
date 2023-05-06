@@ -7,6 +7,7 @@
 		$filemtime = filemtime($filename);
 		$last_updated = date("g:i A", $filemtime);
 		if ($site_theme == 'purple') {
+			$background_color = '#3d204d';
 			$navbar_color = '#320241';
 			$profile_hover_color = '#9250b6';
 			$article_color = '#320241';
@@ -28,7 +29,7 @@
   	<link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
         body {
-            background-color: #3d204d;
+            background-color: <?php echo $background_color ?>;
             color: white;
             font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
         }
