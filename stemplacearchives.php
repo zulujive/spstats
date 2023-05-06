@@ -98,7 +98,7 @@
             padding-left: .4rem;
         }
         .article:hover {
-            background-color: #3d0e56;
+            background-color: <?php echo $article_hover_color ?>;
         }
 	.image {
 	    border-radius: 10px;
