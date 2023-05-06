@@ -1,5 +1,5 @@
 # SPStats
-A simple PHP archive page for STEMPlace and Pxls-based servers.
+A simple PHP archive page for STEMPlace and Pxls-based servers with easy configuration and rock-solid support.
 
 **NOTE: this project is not yet 100% production-ready, use at your own risk!**
 
