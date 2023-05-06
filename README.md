@@ -15,8 +15,8 @@ A simple PHP archive page for STEMPlace and Pxls-based servers with easy configu
 Setting up SPStats is easy, especially if you've already configured an NGINX or Apache server to serve PHP. If you haven't already, install NGINX or Apache (NGINX is recommended for production) and configure it to run PHP through whatever port you'd like.
 
 You have two options for using SPStats:
-  - Running it as the root folder
-  - Running it within your existing server
+  - Running it straight from the NGINX root directory
+  - Running it within your existing server in a new directory
  
  Either works, but scalability will likely be better if you decide to house SPStats within a directory in the root web server directory. The process of using SPStats is nearly identical, but setting up the web server itself will be slightly different.
  
