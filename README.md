@@ -45,3 +45,5 @@ You have two options for using SPStats:
   - Pxls-based authentication
   - Archive editing
   - Mobile optimization
+  - Docker Support
+  - API for canvas data
