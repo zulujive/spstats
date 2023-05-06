@@ -2,6 +2,16 @@
 <html>
   <?php
 	include(dirname(__FILE__).'/config.php');
+	if ($response_enabled == true) {
+      		$submit_disabled = 'enabled';
+      		$submit_cursor = 'pointer';
+      		$submit_alt = 'Submit';
+    }
+  	if ($response_enabled == false) {
+      		$submit_disabled = 'disabled';
+      		$submit_cursor = 'not-allowed';
+      		$submit_alt = 'responses are currently disabled';
+    }
 	?>
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,7 +77,7 @@
       <div><label>Password:</label>
         <input type="password" name="secret_key"></div>
       <br>
-      <div><input style="padding: 7px 8px;cursor:pointer;" type="submit" value="Submit"></div>
+      <div><input style="padding: 7px 8px;cursor:<?php echo $submit_cursor ?>;" type="submit" value="Submit" <?php echo $submit_disabled ?> title="<?php echo $submit_alt ?>"></div>
     </form>
   </body>
 </html>
