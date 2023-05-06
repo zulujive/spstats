@@ -3,6 +3,8 @@
 	$site_name = 'STEMPlace';
 	// Set the Password for the Archive Utility:
 	$valid_key = '1234';
+	// Current Canvas Number:
+	$canvas_num = '3';
 	// The URL of your site (DO NOT add a trailing slash):
 	$site_url = 'https://stemplace.org';
 	// Path to the Archives Page (add a leading slash but trailing slash is optional):
