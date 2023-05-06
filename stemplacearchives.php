@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   	<?php
+		date_default_timezone_set('America/Denver');
   		include(dirname(__FILE__).'/config.php');
 		include(dirname(__FILE__).'/themes.php');
 		$filename = "canvas-".$canvas_num.".png";
 		$filemtime = filemtime($filename);
-		$last_updated = date("g:i A", $filemtime);
+		$last_updated = date("g:i A (e)", $filemtime);
 	?>
 
 
