@@ -7,7 +7,7 @@ if ($submitted_key !== $valid_key) {
     echo 'Invalid password, continued abuse will result in a temporary IP-ban';
     exit;
 }
-if ($form_enabled == false) {
+if ($response_enabled == false) {
     echo 'Form submissions are disabled, please contact your system administrator for more information';
     exit;
 }
