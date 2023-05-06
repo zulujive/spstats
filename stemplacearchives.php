@@ -24,6 +24,15 @@
 			$info_color = '#270e01';
 			$image_border_color = '#130700';
 		}
+	  	if ($site_theme == 'green') {
+          		$background_color = '#204d26';
+			$navbar_color = '#024113';
+			$profile_hover_color = '#50b65e';
+			$article_color = '#024113';
+			$article_hover_color = '#024e20';
+			$info_color = '#01270b';
+			$image_border_color = '#001305';
+		}
 	?>
 
 

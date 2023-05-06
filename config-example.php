@@ -7,7 +7,7 @@
 	$canvas_num = '3';
 	// Enable form submissions:
 	$response_enabled = true;
-	// Theme (purple or red):
+	// Theme (purple, red, or green):
 	$site_theme = 'purple';
 	// The URL of your site (DO NOT add a trailing slash):
 	$site_url = 'https://stemplace.org';
