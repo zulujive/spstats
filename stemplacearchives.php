@@ -15,6 +15,15 @@
 			$info_color = '#1e0127';
 			$image_border_color = '#0f0013';
 		}
+		if ($site_theme == 'red') {
+          		$background_color = '#4d2a20';
+			$navbar_color = '#411802';
+			$profile_hover_color = '#b66750';
+			$article_color = '#411802';
+			$article_hover_color = '#412002';
+			$info_color = '#270e01';
+			$image_border_color = '#130700';
+		}
 	?>
 
 
