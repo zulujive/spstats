@@ -7,6 +7,7 @@ A simple PHP archive page for STEMPlace and Pxls-based servers with easy configu
   - Simple configuration
   - Easy deployment
   - High customization
+  - Theming
   - Rock-solid compatibility and support
 
 ## Instructions
