@@ -6,6 +6,14 @@
 		$filename = "canvas-".$canvas_num.".png";
 		$filemtime = filemtime($filename);
 		$last_updated = date("g:i A", $filemtime);
+		if ($site_theme == 'purple') {
+			$navbar_color = '#320241';
+			$profile_hover_color = '#9250b6';
+			$article_color = '#320241';
+			$article_hover_color = '#3d0e56';
+			$info_color = '#1e0127';
+			$image_border_color = '#0f0013';
+		}
 	?>
 
 
@@ -25,10 +33,10 @@
             font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
         }
       a {
-      		color: white;
+      	    color: white;
       }
         .navbar {
-            background-color: #320241;
+            background-color: <?php echo $navbar_color ?>;
             white-space: nowrap;
             display: block;
             margin-top: -1rem;
@@ -50,13 +58,13 @@
         	transition: ease .2s;
       }
       .navbar>.profile:hover {
-      		color: #9250b6;
+      		color: <?php echo $profile_hover_color ?>;
       }
       .navbar>small {
       		color: lightgrey;
       }
         .article {
-            background-color: #320241;
+            background-color: <?php echo $article_color ?>;
             width: 75%;
             margin: auto;
             margin-bottom: 1rem;
@@ -72,7 +80,7 @@
         }
         .info {
             font-size: 1.2rem;
-            background-color: #1e0127;
+            background-color: <?php echo $info_color ?>;
             margin-left: 1rem;
             margin-right: 2rem;
             margin-top: 1rem;
@@ -83,7 +91,7 @@
             padding-left: 1rem;
             border-radius: 10px;
             text-align: left;
-          	line-height: 1.4rem;
+       	    line-height: 1.4rem;
         }
         .info>p {
             padding-left: .4rem;
@@ -91,6 +99,15 @@
         .article:hover {
             background-color: #3d0e56;
         }
+	.image {
+	    border-radius: 10px;
+	    border-width: .25rem;
+	    border-color: <?php echo $image_border_color ?>;
+	    border-style: solid;
+	    display:block;
+	    margin-left:auto;
+	    margin-right:auto;
+	}
     </style>
 </head>
 <body>
@@ -106,7 +123,7 @@
         <p style="margin-top: 0;color: rgb(189, 189, 189);">MM/DD/YYYY - <em>MM/DD/YYYY</em></p>
       <hr>
       <br><br>
-        <img src="https://stats.stemplace.org/extra/canvas-3.png?<?php echo $filemtime; ?>" width="500" height="500" style="border-radius: 10px;border-width: .25rem;border-color: #0f0013;border-style: solid;display:block;margin-left:auto;margin-right:auto;">
+        <img class="image" src="https://stats.stemplace.org/extra/canvas-3.png?<?php echo $filemtime; ?>" width="500" height="500">
         <div class="info">
             <h2><i class="fa fa-info-circle" aria-hidden="true"></i> Info</h2>
             <p>
