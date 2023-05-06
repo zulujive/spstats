@@ -27,6 +27,8 @@ You have two options for using SPStats:
   
   You can easily format your inputs in the Archive Utility using HTML. To prevent any odd formatting, refrain from using it on anything but the description as this area is pretty clear of formatting.
   
+  Depending on your system, PHP may encounter errors due to insufficient permissions when viewing and editing files. Simply modify the ownership or permissions so that your web server can properly run. If that doesn't work, check NGINX/Apache PHP error logs to understand the problem, feel free to open an issue on GitHub, we'll definitely try to help as best as we can!
+  
   Contribute to the project! Even just a small bug fix is greatly appreciated and we're always happy to get feedback about our code! On top of that, you can add features that we might not even think of, which is a huge plus for users and yourself.
   
 ## Roadmap
