@@ -36,7 +36,7 @@
     <h1><i class="fa fa-cogs" aria-hidden="true"></i> <?php echo $site_name ?> Archive Utility</h1>
     <hr>
     <h2>Instructions:</h2>
-    <p>This utility will generate a new post on the STEMPlace Archives page. If you are unsure of how to do something, ask first before posting.</p>
+    <p>This utility will generate a new post on the <?php echo $site_name ?> Archives page. If you are unsure of how to do something, ask first before posting.</p>
     <p style="color: red;background-color:white;padding-right:.25em;display:inline-block;margin-top:0;">Warning, unauthorized use of this utility will result in an IP-ban.</p>
     <br>
     <form method="post" action="submit.php">
