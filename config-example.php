@@ -2,7 +2,7 @@
 	// Make a copy of this file and rename it to "config.php"
 
 	// Name of your site:
-	$site_name = 'STEMPlace';
+	$site_name = 'Pxls';
 	// Set the Password for the Archive Utility:
 	$valid_key = '1234';
 	// Current Canvas Number:
