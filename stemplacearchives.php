@@ -145,7 +145,7 @@
             <h2><i class="fa fa-info-circle" aria-hidden="true"></i> Info</h2>
             <p>
               This is what your first page should look like. Delete this part (indicated by HTML comments) 
-              and then use the Archive Utility to generate your first post!
+              and then use the Archive Utility to generate your first post.
             </p>
           <hr>
             <h2><i class="fa fa-area-chart" aria-hidden="true"></i> Stats</h2>
