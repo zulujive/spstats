@@ -43,9 +43,9 @@ You have two options for using SPStats:
   Contribute to the project! Even just a small bug fix is greatly appreciated and we're always happy to get feedback about our code! On top of that, you can add features that we might not even think of, which is a huge plus for users and yourself.
   
 ## Roadmap
-  - Built-in board image retrieval
-  - Pxls-based authentication
-  - Archive editing
-  - Mobile optimization
-  - Docker Support
-  - API for canvas data
+  - [ ] Built-in board image retrieval
+  - [ ] Pxls-based authentication
+  - [ ] Archive editing
+  - [x] Mobile optimization
+  - [ ] Docker Support
+  - [ ] API for canvas data
