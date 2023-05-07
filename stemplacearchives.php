@@ -160,7 +160,7 @@
   <!-- and end here -->
   <div class="footer">
     <p>
-      Made with <i class="fa fa-heart" aria-hidden="true"></i> in <i class="fa-brands fa-php fa-2xl"></i> by <b><a href="https://github.com/zulujive">zulujive</a></b>
+      Made with <i class="fa fa-heart" aria-hidden="true"></i> in <i class="fa-brands fa-php fa-2xl"></i> by <b><a href="https://github.com/zulujive" target="_blank">zulujive</a></b>
     </p>
   </div>
 </body>
