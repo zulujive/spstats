@@ -30,22 +30,21 @@
       	    color: white;
       }
         .navbar {
+            width: 100vw;
             background-color: <?php echo $navbar_color ?>;
             white-space: nowrap;
             display: block;
-            margin-top: -1rem;
-            padding-top: .2rem;
-            margin-left: -2rem;
-            margin-right: -2rem;
+            padding-top: 0rem;
             margin-bottom: 1rem;
-            width: 102%;
+            margin-left: -1vw;
+            margin-top: -1rem;
             padding-bottom: 1rem;
             text-align: center;
             transition: ease .2s;
-            overflow-x: auto;
+            overflow-x: hidden;
         }
       .navbar>.profile {
-      		margin-left: 37vmax;
+      		margin-left: max(50vw, 37vmax);
         	margin-top: -2rem;
         	position: absolute;
         	font-size: 1.5rem;
@@ -59,12 +58,13 @@
       }
         .article {
             background-color: <?php echo $article_color ?>;
-            width: 75%;
+            width: min(75%, 1000px);
             margin: auto;
             margin-bottom: 1rem;
             padding: .5rem;
             padding-top: .001rem;
             padding-left: 2rem;
+            padding-right: 2rem;
             border-radius: 15px;
             text-align: center;
             transition: ease .2s;
@@ -99,9 +99,24 @@
 	    border-color: <?php echo $image_border_color ?>;
 	    border-style: solid;
 	    display:block;
+            width: min(60vw, 35rem);
+            height: min(60vw, 35rem);
 	    margin-left:auto;
 	    margin-right:auto;
 	}
+	@media screen and (max-width: 800px) {
+            .navbar>.profile {
+              display: none;
+            }
+        }
+      	@media screen and (max-width: 700px) {
+           .info {
+              display: none;
+           }
+           .image {
+              margin-bottom: 1.5rem;
+           }
+        }
     </style>
 </head>
 <body>
@@ -117,7 +132,7 @@
         <p style="margin-top: 0;color: rgb(189, 189, 189);">MM/DD/YYYY - <em>MM/DD/YYYY</em></p>
       <hr>
       <br><br>
-        <img class="image" src="https://stats.stemplace.org/extra/canvas-3.png?<?php echo $filemtime; ?>" width="500" height="500">
+        <img class="image" src="https://stats.stemplace.org/extra/canvas-3.png?<?php echo $filemtime; ?>">
         <div class="info">
             <h2><i class="fa fa-info-circle" aria-hidden="true"></i> Info</h2>
             <p>

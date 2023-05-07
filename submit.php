@@ -26,7 +26,7 @@ if ($response_enabled == false) {
   $html .= '<div class="article">'."\n";
   $html .= '<h1 style="color: white;text-decoration: none;"><i class="fa fa-flag" aria-hidden="true"></i> ' . $title . '</h1>'."\n";
   $html .= '<p style="margin-top: 0;color: rgb(189, 189, 189);">' . $dates . '</p><hr><br><br>';
-  $html .= '<img class="image" src="' . $image_url . '?<?php echo $filemtime; ?>" width="500" height="500" alt="' . $title . '">'."\n";
+  $html .= '<img class="image" src="' . $image_url . '?<?php echo $filemtime; ?>" alt="' . $title . '">'."\n";
   $html .= '<div class="info"><h2><i class="fa fa-info-circle" aria-hidden="true"></i> Info</h2><p>' . $description . "</p><hr>\n";
   $html .= '<h2><i class="fa fa-area-chart" aria-hidden="true"></i> Stats</h2>'."\n";
   $html .= '<p><b>First Pixel:</b> ' . $first_pixel . "</p>\n";
