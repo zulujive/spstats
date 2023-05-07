@@ -18,7 +18,7 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
     <title><?php echo $site_name ?> Archives</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   	<link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
         body {
@@ -99,16 +99,19 @@
 	    border-color: <?php echo $image_border_color ?>;
 	    border-style: solid;
 	    display:block;
-            width: min(60vw, 35rem);
-            height: min(60vw, 35rem);
+      width: min(60vw, 35rem);
+      height: min(60vw, 35rem);
 	    margin-left:auto;
 	    margin-right:auto;
 	}
+  .footer {
+    color: lightgrey;
+  }
 	@media screen and (max-width: 800px) {
-            .navbar>.profile {
-              display: none;
-            }
-        }
+    .navbar>.profile {
+      display: none;
+      }
+  }
       	@media screen and (max-width: 700px) {
            .info {
               display: none;
@@ -122,7 +125,7 @@
 <body>
     <div class="navbar">
       <h1 style="margin-bottom:0;"><i class="fa fa-archive" aria-hidden="true"></i> <?php echo $site_name ?> Archives</h1>
-      <a href="<?php echo $site_url ?>/profile" class="profile" title="Profile"><i class="fa fa-user" aria-hidden="true"></i></a>
+      <a href="<?php echo $site_url ?>/profile" class="profile" title="Profile"><i class="fa-regular fa-user"></i></a>
       <small>Last Updated: <em><?php echo $last_updated ?></em></small>
     </div>
 <!-- INSERT CONTENT HERE -->
@@ -149,5 +152,10 @@
         </div>
     </div>
   <!-- and end here -->
+  <div class="footer">
+    <p>
+      Made with <i class="fa fa-heart" aria-hidden="true"></i> in <i class="fa-brands fa-php fa-2xl"></i>
+    </p>
+  </div>
 </body>
 </html>
