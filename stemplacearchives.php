@@ -108,7 +108,7 @@
     color: lightgrey;
     text-align: center;
   }
-  .footer>a {
+  .footer>b>a {
     text-decoration: none;
     color: lightgrey;
   }
