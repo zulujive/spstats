@@ -108,6 +108,10 @@
     color: lightgrey;
     text-align: center;
   }
+  .footer>a {
+    text-decoration: none;
+    color: lightgrey;
+  }
 	@media screen and (max-width: 800px) {
     .navbar>.profile {
       display: none;
@@ -156,7 +160,7 @@
   <!-- and end here -->
   <div class="footer">
     <p>
-      Made with <i class="fa fa-heart" aria-hidden="true"></i> in <i class="fa-brands fa-php fa-2xl"></i>
+      Made with <i class="fa fa-heart" aria-hidden="true"></i> in <i class="fa-brands fa-php fa-2xl"></i> by <b><a href="https://github.com/zulujive">zulujive</a></b>
     </p>
   </div>
 </body>
