@@ -109,14 +109,14 @@
               display: none;
             }
         }
-      @media screen and (max-width: 700px) {
+      	@media screen and (max-width: 700px) {
            .info {
               display: none;
            }
            .image {
               margin-bottom: 1.5rem;
            }
-      }
+        }
     </style>
 </head>
 <body>
