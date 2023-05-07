@@ -106,6 +106,7 @@
 	}
   .footer {
     color: lightgrey;
+    text-align: center;
   }
 	@media screen and (max-width: 800px) {
     .navbar>.profile {
