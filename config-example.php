@@ -19,3 +19,4 @@
 	// REMEMBER: You MUST have a <-- INSERT CONTENT HERE --> marker in your file for it to function
 	$filename = 'stemplacearchives.php';
 ?>
+
