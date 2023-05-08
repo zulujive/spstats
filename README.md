@@ -12,6 +12,10 @@ A simple PHP archive page for STEMPlace and Pxls-based servers with easy configu
   - Simple and clean UI
   - Built-in mini-CMS
 
+## Necessary Skills:
+  - HTML editing
+  - Competent on CLI (chmod is sometimes necessary)
+
 ## Instructions
 Setting up SPStats is easy, especially if you've already configured an NGINX or Apache server to serve PHP. If you haven't already, install NGINX or Apache (NGINX is recommended for production) and configure it to run PHP through whatever port you'd like.
 
