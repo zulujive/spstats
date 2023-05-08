@@ -30,18 +30,21 @@
       	    color: white;
       }
         .navbar {
-            width: 100vw;
             background-color: <?php echo $navbar_color ?>;
-            white-space: nowrap;
-            display: block;
+            display: flex;
+            flex-direction: column;
+            -webkit-flex-wrap: wrap;
+            -webkit-box-align: center;
+            flex-wrap: wrap;
             padding-top: 0rem;
             margin-bottom: 1rem;
-            margin-left: -1vw;
             margin-top: -1rem;
             padding-bottom: 1rem;
+            margin-left: -1rem;
             text-align: center;
+            align-items: right;
             transition: ease .2s;
-            overflow-x: hidden;
+            white-space: nowrap;
         }
       .navbar>.profile {
       		margin-left: max(50vw, 37vmax);
@@ -99,8 +102,8 @@
 	    border-color: <?php echo $image_border_color ?>;
 	    border-style: solid;
 	    display:block;
-      width: min(60vw, 35rem);
-      height: min(60vw, 35rem);
+      	    width: min(60vw, 35rem);
+            height: min(60vw, 35rem);
 	    margin-left:auto;
 	    margin-right:auto;
 	}
