@@ -40,9 +40,9 @@
             margin-bottom: 1rem;
             margin-top: -1rem;
             padding-bottom: 1rem;
-          	margin-left: -1rem;
+            margin-left: -1rem;
             text-align: center;
-          	align-items: right;
+            align-items: right;
             transition: ease .2s;
             white-space: nowrap;
         }
@@ -102,8 +102,8 @@
 	    border-color: <?php echo $image_border_color ?>;
 	    border-style: solid;
 	    display:block;
-      width: min(60vw, 35rem);
-      height: min(60vw, 35rem);
+      	    width: min(60vw, 35rem);
+            height: min(60vw, 35rem);
 	    margin-left:auto;
 	    margin-right:auto;
 	}
